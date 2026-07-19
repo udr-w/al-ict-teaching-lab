@@ -1,0 +1,4 @@
+interface:
+  display_name: "Analyse Past Papers"
+  short_description: "Extract trends from examination papers"
+  default_prompt: "Use -past-papers to index past-paper questions and identify curriculum and assessment trends."

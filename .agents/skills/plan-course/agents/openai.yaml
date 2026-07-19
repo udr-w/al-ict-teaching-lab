@@ -1,0 +1,4 @@
+interface:
+  display_name: "Plan Course"
+  short_description: "Plan curriculum-aligned course coverage"
+  default_prompt: "Use -course to map curriculum outcomes into a sequenced teaching plan."

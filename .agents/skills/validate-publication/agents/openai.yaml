@@ -1,0 +1,4 @@
+interface:
+  display_name: "Validate Publication"
+  short_description: "Validate teaching packages before release"
+  default_prompt: "Use -publication to run curriculum, provenance, assessment, privacy, and reproducibility checks."

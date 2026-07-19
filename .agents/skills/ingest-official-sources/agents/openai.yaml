@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ingest Official Sources"
+  short_description: "Ingest and normalize official curriculum sources"
+  default_prompt: "Use $ingest-official-sources to register and normalize official syllabus or teacher-guide material."

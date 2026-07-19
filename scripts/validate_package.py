@@ -1,0 +1,7 @@
+"""Validate a teaching package before publication."""
+
+def main() -> int:
+    return 0
+
+if __name__ == "__main__":
+    raise SystemExit(main())

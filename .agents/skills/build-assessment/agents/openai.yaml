@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Assessment"
+  short_description: "Create aligned assessments and marking guidance"
+  default_prompt: "Use -assessment to design an assessment, blueprint, answers, and marking guidance."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Practical"
+  short_description: "Create reproducible ICT practical activities"
+  default_prompt: "Use -practical to produce a safe, reproducible practical activity and validation checklist."

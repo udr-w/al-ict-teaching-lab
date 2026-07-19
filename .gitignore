@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+node_modules/
+outputs/*
+published/*
+!outputs/.gitkeep
+!published/.gitkeep
+cohorts/*/private/students/*
+!cohorts/2027-a/private/students/S001/
+!cohorts/2027-a/private/students/S001/*

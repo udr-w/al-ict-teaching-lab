@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Lesson Package"
+  short_description: "Create complete curriculum-aligned lesson packages"
+  default_prompt: "Use -lesson-package to create a lesson package with teaching, learner, and provenance artifacts."

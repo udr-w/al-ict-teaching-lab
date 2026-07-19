@@ -1,0 +1,4 @@
+assessment_policy:
+  require_blueprint: true
+  require_marking_scheme: true
+  require_learning_outcome_alignment: true

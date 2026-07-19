@@ -1,0 +1,4 @@
+interface:
+  display_name: "Diagnose Progress"
+  short_description: "Diagnose mastery gaps and interventions"
+  default_prompt: "Use -progress to analyse learner evidence and propose targeted interventions."
