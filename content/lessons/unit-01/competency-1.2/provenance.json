@@ -1,4 +1,8 @@
 {
-  "curriculum_claims": [{"claim": "Competency 1.2 scope and six-period allocation.", "source_id": "nie-gce-al-ict-syllabus-revised-2013-en", "section": "3.0", "printed_pages": [6], "pdf_pages": [7]}],
+  "curriculum_claims": [
+    {"claim": "Competency 1.2 scope, bulk manual-processing drawbacks, emergence of IT, convergence, Internet and WWW, mobile computing and communication, and six-period allocation.", "source_id": "nie-gce-al-ict-syllabus-revised-2013-en", "section": "3.0", "printed_pages": [6], "pdf_pages": [7]},
+    {"claim": "Information supports decisions, policy, forecasting, planning, surveying and monitoring across domains.", "source_id": "nie-gce-al-ict-teacher-guide-grade-12-2017-si", "section": "Competency level 1.2", "printed_pages": [37], "pdf_pages": [50]},
+    {"claim": "Competency 1.2 includes dissemination technologies, computer networks, Internet, WWW, mobile communication, mobile computing, cloud computing, and safety considerations.", "source_id": "nie-gce-al-ict-teacher-guide-grade-12-2017-si", "section": "Competency level 1.2", "printed_pages": [37, 38], "pdf_pages": [50, 51]}
+  ],
   "authored_material": {"status": "teacher-authored", "note": "Examples, fictional datasets, questions, answers, and sequencing were created for this package without learner data."}
 }

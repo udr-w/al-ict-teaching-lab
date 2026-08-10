@@ -1,0 +1,57 @@
+publication:
+  package_id: unit-01-competency-1.2
+  status: publication-candidate
+  candidate_root: outputs/publication-candidates/unit-01/competency-1.2
+  source_artifacts:
+    - lesson.yaml
+    - teacher-notes.md
+    - delivery-guide.md
+    - accessibility.md
+    - slides.md
+    - slides.qmd
+    - slides.css
+    - accessibility-fixes.html
+    - assets/decision-route.svg
+    - assets/dissemination-domains.svg
+    - assets/electronic-workflow.svg
+    - assets/error-at-scale.svg
+    - assets/ict-convergence.svg
+    - assets/internet-web-layers.svg
+    - assets/manual-workflow.svg
+    - assets/mobile-cloud-layers.svg
+    - assets/mobile-decision-map.svg
+    - assets/scale-hook.svg
+    - assets/workflow-balance.svg
+    - worksheet.md
+    - practical.md
+    - homework.md
+    - answers.md
+    - provenance.json
+  rendered_artifacts:
+    - slides.html
+    - slides.pdf
+    - teacher-notes.html
+    - teacher-notes.pdf
+    - delivery-guide.html
+    - delivery-guide.pdf
+    - accessibility.html
+    - accessibility.pdf
+    - worksheet.html
+    - worksheet.pdf
+    - practical.html
+    - practical.pdf
+    - homework.html
+    - homework.pdf
+    - answers.html
+    - answers.pdf
+  release_checks:
+    curriculum_alignment: passed
+    provenance: passed
+    answer_and_mark_consistency: passed
+    practical_reproducibility: passed
+    accessibility: blocked-untagged-slide-pdf
+    privacy_scan: passed
+    rendered_artifact_integrity: passed
+  format_accessibility:
+    slides_html: primary-accessible-format
+    slides_pdf: print-reference-untagged

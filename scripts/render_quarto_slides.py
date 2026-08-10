@@ -7,11 +7,15 @@ from pathlib import Path
 import re
 import subprocess
 
+import yaml
+
 
 ROOT = Path(__file__).resolve().parents[1]
-QUARTO = ROOT / ".tools" / "quarto-1.10.18" / "bin" / "quarto"
-NODE = ROOT / ".tools" / "node-v22.23.2-linux-x64" / "bin" / "node"
+TOOLCHAIN = yaml.safe_load((ROOT / "config" / "toolchain.yaml").read_text(encoding="utf-8"))["presentation_toolchain"]
+QUARTO = ROOT / TOOLCHAIN["quarto"]["install_path"] / "bin" / "quarto"
+NODE = ROOT / TOOLCHAIN["node"]["install_path"] / "bin" / "node"
 DECKTAPE = ROOT / "node_modules" / "decktape" / "decktape.js"
+CHROME = TOOLCHAIN["decktape"]["browser"]
 
 
 def run(command: list[str]) -> str:
@@ -36,7 +40,7 @@ def render(package: Path, output: Path) -> tuple[Path, Path]:
     pdf = output / "slides.pdf"
     decktape_output = run([
         str(NODE), str(DECKTAPE), "reveal",
-        "--chrome-path", "/usr/bin/google-chrome",
+        "--chrome-path", CHROME,
         "--size", "1600x900",
         html.resolve().as_uri(), str(pdf.resolve()),
     ])

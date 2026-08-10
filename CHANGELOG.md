@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Promoted Competency 1.2 to a validated publication candidate with complete official-source coverage, a reproducible comparative practical, six-period delivery guidance, and a 12-slide accessible visual deck.
+
 ## 0.2.0 - 2026-08-11
 
 - Created the initial teaching-lab repository architecture.

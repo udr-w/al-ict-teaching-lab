@@ -6,7 +6,7 @@
       "term": "grade-12-term-1",
       "competencies": {
         "1.1": {"curriculum": "modelled", "lesson_package": "publication-candidate", "assessment": "unit-01-checkpoint-1"},
-        "1.2": {"curriculum": "modelled", "lesson_package": "ready-for-review", "assessment": "unit-01-checkpoint-1"},
+        "1.2": {"curriculum": "modelled", "lesson_package": "publication-candidate", "assessment": "unit-01-checkpoint-1"},
         "1.3": {"curriculum": "modelled", "lesson_package": "ready-for-review", "assessment": "unit-01-checkpoint-1"},
         "1.4": {"curriculum": "modelled", "lesson_package": "not-started"},
         "1.5": {"curriculum": "modelled", "lesson_package": "not-started"},

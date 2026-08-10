@@ -3,24 +3,25 @@ lesson:
   title: Why Information Work Needs Technology
   unit: 1
   competency: "1.2"
-  status: ready-for-review
+  status: publication-candidate
   allocated_periods: 6
   prerequisites: ["1.1"]
   curriculum_source: {id: nie-gce-al-ict-syllabus-revised-2013-en, printed_page: 6}
   learning_outcomes:
-    - {id: LO-1, statement: Explain why bulk manual data handling can be slow unreliable or inaccurate.}
-    - {id: LO-2, statement: Explain how electronic technologies enabled the creation dissemination and management of information.}
-    - {id: LO-3, statement: Distinguish the Internet from the World Wide Web.}
-    - {id: LO-4, statement: Evaluate how mobile computing and communication support an information task.}
+    - {id: LO-1, statement: Use workflow evidence to explain why bulk manual data handling can be slow, unreliable, inaccurate, or unsafe.}
+    - {id: LO-2, statement: Explain why information matters for decisions, policy, forecasting, planning, surveying, and monitoring, and how technologies support its creation, management, retrieval, and dissemination across domains.}
+    - {id: LO-3, statement: Explain the convergence from electronic processing to networks and distinguish the Internet from the World Wide Web and other Internet services.}
+    - {id: LO-4, statement: Distinguish mobile communication, mobile computing, and cloud computing and evaluate their benefits, constraints, safety risks, and controls for an information task.}
   success_criteria:
     - Uses evidence from a workflow comparison rather than assuming digital is always better.
-    - Correctly describes the Internet as infrastructure and the Web as a service using it.
-    - Identifies one benefit one limitation and one control for a mobile scenario.
+    - Correctly describes the Internet as interconnected network infrastructure and the Web as one information service using it.
+    - Distinguishes mobile communication, mobile computing, and cloud computing in a scenario.
+    - Identifies a justified benefit, limitation, safety risk, and control for a mobile or cloud-supported task.
   sequence:
     - {period: 1, phase: activate, focus: Manual information workflows, outcomes: [LO-1]}
     - {period: 2, phase: explain, focus: Scale speed reliability and accuracy, outcomes: [LO-1]}
-    - {period: 3, phase: explain, focus: Emergence of electronic information work, outcomes: [LO-2]}
-    - {period: 4, phase: practise, focus: Internet and World Wide Web, outcomes: [LO-3]}
-    - {period: 5, phase: practise, focus: Mobile computing case study, outcomes: [LO-4]}
+    - {period: 3, phase: explain, focus: Information in daily life and technologies for creation management retrieval and dissemination, outcomes: [LO-2]}
+    - {period: 4, phase: practise, focus: Convergence networks Internet World Wide Web and other services, outcomes: [LO-3]}
+    - {period: 5, phase: practise, focus: Mobile communication mobile computing cloud computing and safety, outcomes: [LO-4]}
     - {period: 6, phase: assess-and-reflect, focus: Workflow recommendation, outcomes: [LO-1, LO-2, LO-3, LO-4]}
   assessment: {diagnostic: Manual tally prediction, formative: Worksheet and practical checklist, summative: Homework recommendation}

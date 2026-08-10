@@ -6,17 +6,21 @@ Focus on the need for technology and the convergence of information and communic
 
 ## Core explanation
 
-Manual methods can work well at small scale, but bulk work increases elapsed time, opportunities for inconsistent transcription, and difficulty reproducing results. Technology can automate repetition, store and retrieve records, and disseminate results quickly. It does not guarantee quality: poor source data, unsuitable rules, failures, or weak controls can reproduce errors at scale.
+Manual methods can work well at small scale, but bulk work increases elapsed time, duplication, inconsistent transcription, retrieval difficulty, and exposure to human error. Some high-volume or hazardous situations also make manual handling impractical or unsafe. Technology can automate repetition, store and retrieve records, and disseminate results quickly. It does not guarantee quality: poor source data, unsuitable rules, failures, or weak controls can reproduce errors at scale.
 
-The Internet is the interconnected network infrastructure and protocol system. The World Wide Web is one service that uses that infrastructure to link and retrieve resources. Mobile computing combines portable processing with communication, enabling work away from a fixed location while introducing connectivity, power, security, and usability constraints.
+Information supports decisions, policy, forecasting, planning, surveying, and monitoring in domains such as transport, agriculture, health, education, and disaster response. Electronic processing, storage, networks, broadcasting, messaging, and Web services can contribute differently to creating, managing, retrieving, and disseminating it.
+
+The Internet is the global system of interconnected computer networks communicating through the Internet protocol suite. The World Wide Web is an information system of interlinked resources accessed over the Internet, commonly with browsers and HTTP(S). Email and file transfer are other Internet services; they are not Web activities merely because they use the Internet.
+
+Mobile computing means processing with portable computing resources and can continue offline. Mobile communication enables information exchange over wireless or remote links. Cloud computing provides shared processing, applications, or storage accessed over a network. A workflow may combine all three while still requiring offline recovery, authentication, encryption, data minimisation, conflict handling, power planning, and human oversight.
 
 ## Six-period guidance
 
 1. Run a manual tally of the fictional requests in `practical.md`; record time and discrepancies.
 2. Compare scale, speed, reliability, accuracy, auditability, and cost. Challenge “computer means correct.”
-3. Build a timeline from isolated electronic processing to networked information sharing; avoid date memorisation.
-4. Sort examples into Internet infrastructure, Web service, or another Internet service such as email.
-5. Evaluate a field-worker scenario for portability, connectivity, battery, privacy, and offline operation.
+3. Match daily-life information needs—decision, policy, forecast, plan, survey, monitor—to creation, management, retrieval, and dissemination technologies across several domains.
+4. Build a conceptual path from isolated electronic processing to networks and converged services; sort examples into Internet infrastructure, Web activity, or another Internet service such as email.
+5. Evaluate a fictional field-worker scenario by distinguishing mobile computing, mobile communication, and cloud computing, then address connectivity, battery, privacy, security, synchronisation, and offline operation.
 6. Learners recommend a workflow and defend where people, procedures, and technology each remain necessary.
 
 ## Misconceptions
@@ -24,6 +28,8 @@ The Internet is the interconnected network infrastructure and protocol system. T
 - Reliability means dependable operation, not that every output is true.
 - The Internet and the Web are related but not synonyms.
 - Mobile computing is not limited to mobile phones.
+- Mobile computing and mobile communication are related but not synonymous; useful processing may continue offline.
+- Cloud computing is not “the Internet”; it is remotely delivered shared computing or storage accessed through a network.
 - Automation can increase the speed and scale of errors.
 
 ## Inclusion and privacy

@@ -1,0 +1,23 @@
+:root { --ink:#183354; --muted:#53677d; --teal:#007f86; --teal-soft:#dff3f2; --gold:#e6a51c; --paper:#f7f9fb; --white:#fff; }
+.reveal { color:var(--ink); font-family:"Atkinson Hyperlegible","Noto Sans",Arial,sans-serif; }
+.reveal .slides { text-align:left; }
+.reveal .slides section { background:linear-gradient(135deg,var(--paper) 0 82%,#e4f3f3 82% 100%); padding:1.2rem 1.6rem; box-sizing:border-box; }
+.reveal h2 { color:var(--ink); font-size:1.85em; margin:0 0 .55em; border-left:.18em solid var(--teal); padding-left:.35em; }
+.reveal p,.reveal li { line-height:1.28; }
+.hero-visual { display:block; max-height:430px; width:100%; object-fit:contain; }
+.wide-visual { display:block; max-height:395px; width:100%; object-fit:contain; }
+.prompt-card,.takeaway,.scenario-card,.exit-prompt,.category-strip { background:var(--white); border-left:.35rem solid var(--gold); box-shadow:0 .2rem .8rem #18335418; border-radius:.3rem; padding:.55rem .8rem; margin:.5rem auto; font-size:.78em; }
+.takeaway,.category-strip { border-left-color:var(--teal); text-align:center; font-weight:700; }
+.scenario-card { font-size:.68em; border:2px solid #c9d9e4; border-left:.3rem solid var(--teal); }
+.sort-grid,.three-part { display:grid; grid-template-columns:repeat(4,1fr); gap:.7rem; margin:1.2rem auto; }
+.sort-card,.mini-card { background:var(--white); border:3px solid #c9d9e4; border-top:.3rem solid var(--teal); border-radius:.5rem; box-shadow:0 .15rem .5rem #18335416; padding:1rem .6rem; text-align:center; font-size:.7em; min-height:4rem; display:flex; align-items:center; justify-content:center; }
+.three-part { grid-template-columns:repeat(3,1fr); margin:.5rem auto; }
+.mini-card { font-size:.52em; min-height:2.8rem; padding:.55rem .4rem; overflow:hidden; }
+.mini-card p { margin:0; line-height:1.2; width:100%; }
+.mini-card strong { display:block; margin-bottom:.18rem; }
+.exit-prompt { max-width:1100px; font-size:.7em; }
+.visually-hidden { position:absolute!important; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
+.reveal .footer,.reveal .slide-number { color:var(--muted); background:transparent; }
+.reveal .footer { font-size:.35em; }
+@media(max-width:900px){.sort-grid{grid-template-columns:repeat(2,1fr)}.three-part{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){.reveal .slides section{transition:none!important}}
