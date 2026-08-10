@@ -6,7 +6,8 @@
   "scripts": {
     "test": "python3 -m pytest",
     "validate": "python3 scripts/validate_package.py",
-    "render:slides:1.1": "python3 scripts/render_quarto_slides.py content/lessons/unit-01/competency-1.1"
+    "render:slides:1.1": "python3 scripts/render_quarto_slides.py content/lessons/unit-01/competency-1.1",
+    "build:publications": "python3 scripts/build_publications.py"
   },
   "devDependencies": {
     "decktape": "3.16.1"

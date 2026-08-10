@@ -3,6 +3,7 @@
 ## Unreleased
 
 - Promoted Competency 1.2 to a validated publication candidate with complete official-source coverage, a reproducible comparative practical, six-period delivery guidance, and a 12-slide accessible visual deck.
+- Added a single clean-checkout command that rebuilds and validates all publication candidates while keeping generated outputs out of version control.
 
 ## 0.2.0 - 2026-08-11
 
