@@ -1,0 +1,9 @@
+assessment:
+  id: unit-01-checkpoint-1
+  title: Unit 1 Checkpoint — Competencies 1.1 to 1.3
+  status: ready-for-review
+  time_minutes: 50
+  total_marks: 40
+  competencies: ["1.1", "1.2", "1.3"]
+  permitted_resources: [calculator]
+  learner_data: none

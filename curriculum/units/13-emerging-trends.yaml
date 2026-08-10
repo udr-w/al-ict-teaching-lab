@@ -1,0 +1,12 @@
+unit:
+  id: 13
+  slug: emerging-trends
+  title: Emerging Trends and Future Directions
+  competency: Explores new trends and future directions of ICT.
+  source: {id: nie-gce-al-ict-syllabus-revised-2013-en, printed_pages: [36], section: "3.0"}
+  competency_levels:
+    - {id: "13.1", outcome: Explores new trends and future directions in computing., periods: 4, source_printed_pages: [36]}
+    - {id: "13.2", outcome: Explores fundamentals and applications of agent technology., periods: 4, source_printed_pages: [36]}
+    - {id: "13.3", outcome: Explores fundamentals and applications of evolutionary computing., periods: 4, source_printed_pages: [36]}
+    - {id: "13.4", outcome: Explores ubiquitous computing., periods: 4, source_printed_pages: [36]}
+    - {id: "13.5", outcome: Analyses existing computing models and proposes new models., periods: 4, source_printed_pages: [36]}

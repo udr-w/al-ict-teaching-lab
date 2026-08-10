@@ -1,0 +1,10 @@
+unit:
+  id: 12
+  slug: ict-in-business
+  title: ICT in Business
+  competency: Explores applicability of ICT to business organizations and the competitive marketplace.
+  source: {id: nie-gce-al-ict-syllabus-revised-2013-en, printed_pages: [34, 35], section: "3.0"}
+  competency_levels:
+    - {id: "12.1", outcome: Explores the role of ICT in the world of business., periods: 5, source_printed_pages: [34]}
+    - {id: "12.2", outcome: Analyses the relationship between ICT and business operations., periods: 5, source_printed_pages: [35]}
+    - {id: "12.3", outcome: Analyses IT means of generating and delivering improved products and services., periods: 5, source_printed_pages: [35]}

@@ -1,0 +1,26 @@
+lesson:
+  id: unit-01-competency-1.2
+  title: Why Information Work Needs Technology
+  unit: 1
+  competency: "1.2"
+  status: ready-for-review
+  allocated_periods: 6
+  prerequisites: ["1.1"]
+  curriculum_source: {id: nie-gce-al-ict-syllabus-revised-2013-en, printed_page: 6}
+  learning_outcomes:
+    - {id: LO-1, statement: Explain why bulk manual data handling can be slow unreliable or inaccurate.}
+    - {id: LO-2, statement: Explain how electronic technologies enabled the creation dissemination and management of information.}
+    - {id: LO-3, statement: Distinguish the Internet from the World Wide Web.}
+    - {id: LO-4, statement: Evaluate how mobile computing and communication support an information task.}
+  success_criteria:
+    - Uses evidence from a workflow comparison rather than assuming digital is always better.
+    - Correctly describes the Internet as infrastructure and the Web as a service using it.
+    - Identifies one benefit one limitation and one control for a mobile scenario.
+  sequence:
+    - {period: 1, phase: activate, focus: Manual information workflows, outcomes: [LO-1]}
+    - {period: 2, phase: explain, focus: Scale speed reliability and accuracy, outcomes: [LO-1]}
+    - {period: 3, phase: explain, focus: Emergence of electronic information work, outcomes: [LO-2]}
+    - {period: 4, phase: practise, focus: Internet and World Wide Web, outcomes: [LO-3]}
+    - {period: 5, phase: practise, focus: Mobile computing case study, outcomes: [LO-4]}
+    - {period: 6, phase: assess-and-reflect, focus: Workflow recommendation, outcomes: [LO-1, LO-2, LO-3, LO-4]}
+  assessment: {diagnostic: Manual tally prediction, formative: Worksheet and practical checklist, summative: Homework recommendation}

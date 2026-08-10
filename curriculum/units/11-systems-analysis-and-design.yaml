@@ -1,0 +1,16 @@
+unit:
+  id: 11
+  slug: systems-analysis-and-design
+  title: Systems Analysis and Design
+  competency: Explores systems concepts and uses structured systems analysis and design methodology to develop information systems.
+  source: {id: nie-gce-al-ict-syllabus-revised-2013-en, printed_pages: [30, 31, 32, 33, 34], section: "3.0"}
+  competency_levels:
+    - {id: "11.1", outcome: Explores characteristics of systems., periods: 2, source_printed_pages: [30]}
+    - {id: "11.2", outcome: Compares types of man-made systems by objectives and functionality., periods: 4, source_printed_pages: [31]}
+    - {id: "11.3", outcome: Explores information-system development models and methods., periods: 4, source_printed_pages: [32]}
+    - {id: "11.4", outcome: Examines structured systems analysis and design methodology., periods: 4, source_printed_pages: [32]}
+    - {id: "11.5", outcome: Investigates the need and feasibility of a new information system., periods: 5, source_printed_pages: [32]}
+    - {id: "11.6", outcome: Uses varied methods to analyse the current system., periods: 5, source_printed_pages: [33]}
+    - {id: "11.7", outcome: Designs the proposed system., periods: 5, source_printed_pages: [33]}
+    - {id: "11.8", outcome: Develops and tests the proposed system., periods: 5, source_printed_pages: [33]}
+    - {id: "11.9", outcome: Implements the developed system., periods: 4, source_printed_pages: [34]}

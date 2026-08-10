@@ -1,1 +1,44 @@
-sessions: []
+schedule:
+  cohort: 2027-a
+  status: term-sequenced
+  source:
+    id: nie-gce-al-ict-syllabus-revised-2013-en
+    printed_page: 5
+    section: Proposed Term-based Breakdown of the Syllabus (Revised)
+  planning_constraints_pending:
+    - academic calendar and term dates
+    - teaching weeks and holidays
+    - session duration and weekly period capacity
+    - assessment windows
+    - laboratory availability
+  terms:
+    - id: grade-12-term-1
+      grade: 12
+      term: 1
+      periods: 74
+      competency_levels: ["1.1", "1.2", "1.3", "1.4", "3.1", "3.2", "3.3", "3.4", "4.1", "4.2", "4.3", "7.1", "7.2", "7.3", "11.1", "11.2"]
+    - id: grade-12-term-2
+      grade: 12
+      term: 2
+      periods: 89
+      competency_levels: ["1.5", "1.6", "1.7", "2.1", "2.2", "2.3", "6.1", "6.2", "6.3", "6.4", "7.4", "7.5", "7.6", "9.1", "9.2", "9.3", "11.3", "11.4"]
+    - id: grade-12-term-3
+      grade: 12
+      term: 3
+      periods: 85
+      competency_levels: ["12.1", "12.2", "12.3", "8.1", "8.2", "10.1", "10.2", "7.7", "7.8", "7.9", "11.5", "11.6", "11.7", "9.4", "9.5"]
+    - id: grade-13-term-1
+      grade: 13
+      term: 1
+      periods: 88
+      competency_levels: ["10.3", "10.4", "5.1", "5.2", "5.3", "11.8", "11.9", "7.10", "8.3", "8.4", "8.5", "8.6", "8.7", "8.8", "9.6", "9.7"]
+    - id: grade-13-term-2
+      grade: 13
+      term: 2
+      periods: 74
+      competency_levels: ["10.5", "7.11", "7.12", "8.9", "8.10", "8.11", "8.12", "9.8", "9.9", "13.1", "13.2", "13.3", "13.4", "13.5"]
+    - id: grade-13-term-3
+      grade: 13
+      term: 3
+      periods: 61
+      competency_levels: ["10.6", "7.13", "8.13", "8.14", "8.15", "14.1", "14.2"]

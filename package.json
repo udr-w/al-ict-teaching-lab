@@ -1,10 +1,14 @@
 {
   "name": "al-ict-teaching-lab",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "description": "Rendering support for AL ICT teaching materials",
   "scripts": {
-    "test": "python -m pytest",
-    "validate": "python scripts/validate_package.py"
+    "test": "python3 -m pytest",
+    "validate": "python3 scripts/validate_package.py",
+    "render:slides:1.1": "python3 scripts/render_quarto_slides.py content/lessons/unit-01/competency-1.1"
+  },
+  "devDependencies": {
+    "decktape": "3.16.1"
   }
 }

@@ -1,0 +1,22 @@
+unit:
+  id: 8
+  slug: data-communication-and-networking
+  title: Data Communication and Computer Networks
+  competency: Explores data communication and computer network technologies for communication and resource sharing.
+  source: {id: nie-gce-al-ict-syllabus-revised-2013-en, printed_pages: [20, 21, 22, 23, 24, 25, 26], section: "3.0"}
+  competency_levels:
+    - {id: "8.1", outcome: Develops an abstract model for communication using logical components., periods: 4, source_printed_pages: [20]}
+    - {id: "8.2", outcome: Compares manual and modern communication methods., periods: 5, source_printed_pages: [20]}
+    - {id: "8.3", outcome: Investigates data-transmission methodologies., periods: 5, source_printed_pages: [21]}
+    - {id: "8.4", outcome: Explores multiplexing techniques for media sharing., periods: 4, source_printed_pages: [21]}
+    - {id: "8.5", outcome: Selects appropriate transmission media for data communication., periods: 5, source_printed_pages: [21]}
+    - {id: "8.6", outcome: Analyses transmission impairments to improve efficiency and quality., periods: 4, source_printed_pages: [22]}
+    - {id: "8.7", outcome: Compares benefits and issues of computer networks., periods: 4, source_printed_pages: [22]}
+    - {id: "8.8", outcome: Selects network types topologies and models for different needs., periods: 5, source_printed_pages: [22]}
+    - {id: "8.9", outcome: Uses the OSI layered architecture as a networking reference model., periods: 5, source_printed_pages: [23]}
+    - {id: "8.10", outcome: Explores basic network devices and protocols., periods: 5, source_printed_pages: [23]}
+    - {id: "8.11", outcome: Explores basic principles of client-server computing., periods: 5, source_printed_pages: [24]}
+    - {id: "8.12", outcome: Explores addressing schemes used in networks., periods: 5, source_printed_pages: [24]}
+    - {id: "8.13", outcome: Explores the structure technology and services of the Internet and World Wide Web., periods: 5, source_printed_pages: [25]}
+    - {id: "8.14", outcome: Explores network vulnerabilities threats and attacks., periods: 5, source_printed_pages: [26]}
+    - {id: "8.15", outcome: Secures networks and information from attack., periods: 5, source_printed_pages: [26]}

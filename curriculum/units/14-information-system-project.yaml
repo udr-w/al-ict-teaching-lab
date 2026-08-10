@@ -1,0 +1,17 @@
+unit:
+  id: 14
+  slug: information-system-project
+  title: Information System Project
+  competency: Designs and implements a simple information system as a project.
+  source: {id: nie-gce-al-ict-syllabus-revised-2013-en, printed_pages: [37, 39], section: "3.0 and 5.0"}
+  competency_levels:
+    - id: "14.1"
+      outcome: Conducts a project to design an information system.
+      periods: 15
+      allocation: Phase I of the 30 project periods distributed through Grade 13.
+      source_printed_pages: [37, 39]
+    - id: "14.2"
+      outcome: Implements and demonstrates the information system.
+      periods: 15
+      allocation: Phase II of the 30 project periods distributed through Grade 13.
+      source_printed_pages: [37, 39]

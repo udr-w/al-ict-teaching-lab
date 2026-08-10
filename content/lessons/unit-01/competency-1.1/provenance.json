@@ -1,3 +1,15 @@
 {
-  "sources": []
+  "curriculum_claims": [
+    {
+      "claim": "Competency 1.1 scope and allocation: data, information, manipulation, characteristics, quality, value, and relevance; five periods.",
+      "source_id": "nie-gce-al-ict-syllabus-revised-2013-en",
+      "section": "3.0",
+      "printed_pages": [6],
+      "pdf_pages": [7]
+    }
+  ],
+  "authored_material": {
+    "status": "teacher-authored",
+    "note": "Examples, fictional datasets, questions, calculations, and pedagogical sequencing were created for this package and contain no learner data."
+  }
 }

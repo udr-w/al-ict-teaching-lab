@@ -1,2 +1,39 @@
-nodes: []
-edges: []
+metadata:
+  scope: unit-level pedagogical prerequisites
+  status: inferred
+  edge_semantics: Foundational exposure to the source unit should precede first exposure to the target unit; completion of the whole source unit is not required.
+  note: Edges are instructional inferences, not explicit claims from the official syllabus.
+nodes:
+  - {id: 1, title: Concepts of ICT}
+  - {id: 2, title: Evolution and Architecture of Computers}
+  - {id: 3, title: Data Representation}
+  - {id: 4, title: Digital Logic}
+  - {id: 5, title: Memory Management}
+  - {id: 6, title: Operating Systems}
+  - {id: 7, title: Programming}
+  - {id: 8, title: Data Communication and Computer Networks}
+  - {id: 9, title: Database Systems}
+  - {id: 10, title: Web Development}
+  - {id: 11, title: Systems Analysis and Design}
+  - {id: 12, title: ICT in Business}
+  - {id: 13, title: Emerging Trends and Future Directions}
+  - {id: 14, title: Information System Project}
+edges:
+  - {from: 1, to: 2, rationale: Basic computer components precede architecture.}
+  - {from: 1, to: 7, rationale: Information-processing concepts frame problem solving.}
+  - {from: 1, to: 11, rationale: Systems concepts support information-system analysis.}
+  - {from: 2, to: 5, rationale: Hardware architecture precedes memory organization.}
+  - {from: 2, to: 6, rationale: Hardware architecture supports operating-system resource management.}
+  - {from: 3, to: 4, rationale: Binary representation precedes Boolean circuits.}
+  - {from: 3, to: 7, rationale: Data representation supports programming data types and operations.}
+  - {from: 3, to: 8, rationale: Binary data and signals support data communication.}
+  - {from: 7, to: 9, rationale: Data structures and file handling support database work.}
+  - {from: 7, to: 10, rationale: Programming constructs support interactive web development.}
+  - {from: 7, to: 14, rationale: Programming is required to implement the project.}
+  - {from: 8, to: 10, rationale: Internet and WWW concepts support publishing websites.}
+  - {from: 8, to: 13, rationale: Networking foundations support emerging distributed technologies.}
+  - {from: 11, to: 9, rationale: Systems modelling provides context for database requirements and design.}
+  - {from: 9, to: 14, rationale: Database design supports project data persistence.}
+  - {from: 10, to: 14, rationale: Web development can provide the project interface.}
+  - {from: 11, to: 14, rationale: Analysis design implementation and testing frame the project lifecycle.}
+  - {from: 12, to: 14, rationale: Business context helps define authentic project requirements.}

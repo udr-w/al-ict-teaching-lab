@@ -1,1 +1,35 @@
-sources: []
+sources:
+  - id: nie-gce-al-ict-syllabus-revised-2013-en
+    type: official_syllabus
+    title: G.C.E. (Advanced Level) Information and Communication Technology Syllabus (Revised)
+    authority: National Institute of Education, Sri Lanka
+    department: Department of Information Technology, Faculty of Science and Technology
+    language: en
+    grades: [12, 13]
+    revision_year: 2013
+    effective_from_exam_year: 2015
+    publication_date: 2014-03-25
+    retrieved_date: 2026-08-11
+    source_url: https://www.nie.lk/pdffiles/tg/e13syl95.pdf
+    local_path: sources/official/gce-al-ict-syllabus-revised-2013-en.pdf
+    media_type: application/pdf
+    pages: 41
+    sha256: 2cd636172157355c0f098231896c36f601299a3355e80ff31fef6c15a75efbfc
+    status: verified
+  - id: nie-gce-al-ict-teacher-guide-grade-12-2017-si
+    type: official_teacher_guide
+    title: G.C.E. Advanced Level Information and Communication Technology Teacher Guide, Grade 12
+    authority: National Institute of Education, Sri Lanka
+    department: Department of Information Technology
+    language: si
+    grades: [12]
+    publication_year: 2017
+    effective_from_year: 2017
+    retrieved_date: 2026-08-11
+    source_url: https://e-thaksalawa.moe.gov.lk/lcms/pluginfile.php/29644/mod_resource/content/3/SAL_tim_new.pdf
+    catalogue_url: https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=28188
+    local_path: sources/official/gce-al-ict-teacher-guide-grade-12-2017-si.pdf
+    media_type: application/pdf
+    pages: 259
+    sha256: b6e20edf3b42633394629060d3ba071f53c880f325781bed48b30184b1b2536f
+    status: verified

@@ -3,6 +3,8 @@ __pycache__/
 .pytest_cache/
 .venv/
 node_modules/
+.tools/
+*.egg-info/
 outputs/*
 published/*
 !outputs/.gitkeep

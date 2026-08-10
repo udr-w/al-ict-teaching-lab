@@ -1,0 +1,13 @@
+unit:
+  id: 10
+  slug: web-development
+  title: Web Development
+  competency: Develops websites incorporating multimedia technologies.
+  source: {id: nie-gce-al-ict-syllabus-revised-2013-en, printed_pages: [29, 30], section: "3.0"}
+  competency_levels:
+    - {id: "10.1", outcome: Explores types of web pages and their content and structure., periods: 6, source_printed_pages: [29]}
+    - {id: "10.2", outcome: Analyses website structure and composition to organize pages and content., periods: 6, source_printed_pages: [29]}
+    - {id: "10.3", outcome: Uses HTML to create web pages., periods: 8, source_printed_pages: [29]}
+    - {id: "10.4", outcome: Uses advanced HTML features to enhance web pages., periods: 8, source_printed_pages: [30]}
+    - {id: "10.5", outcome: Uses a visual web-authoring tool to develop web pages., periods: 8, source_printed_pages: [30]}
+    - {id: "10.6", outcome: Publishes and maintains websites., periods: 8, source_printed_pages: [30]}

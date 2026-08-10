@@ -1,0 +1,11 @@
+blueprint:
+  assessment_id: unit-01-checkpoint-1
+  questions:
+    - {id: Q1, competency: "1.1", outcomes: [LO-1, LO-2], command_words: [distinguish, explain], cognitive_demand: understand, marks: 6}
+    - {id: Q2, competency: "1.1", outcomes: [LO-3, LO-4], command_words: [evaluate, improve], cognitive_demand: analyse, marks: 6}
+    - {id: Q3, competency: "1.2", outcomes: [LO-1, LO-2], command_words: [analyse, recommend], cognitive_demand: analyse, marks: 8}
+    - {id: Q4, competency: "1.2", outcomes: [LO-3, LO-4], command_words: [distinguish, evaluate], cognitive_demand: apply, marks: 6}
+    - {id: Q5, competency: "1.3", outcomes: [LO-1, LO-2], command_words: [construct, evaluate], cognitive_demand: apply, marks: 8}
+    - {id: Q6, competency: "1.3", outcomes: [LO-3, LO-4], command_words: [explain, justify], cognitive_demand: evaluate, marks: 6}
+  competency_mark_totals: {"1.1": 12, "1.2": 14, "1.3": 14}
+  cognitive_mark_totals: {understand: 6, apply: 14, analyse: 14, evaluate: 6}

@@ -2,4 +2,29 @@ unit:
   id: 3
   slug: data-representation
   title: Data Representation
-  competencies: []
+  competency: Investigates how data are represented in computers and applies arithmetic and logic operations.
+  source:
+    id: nie-gce-al-ict-syllabus-revised-2013-en
+    printed_pages: [10, 11]
+    section: "3.0"
+  competency_levels:
+    - id: "3.1"
+      outcome: Analyses how numeric data are represented in computers.
+      periods: 5
+      topics: [signed and unsigned numbers, fixed and floating point, binary, octal, hexadecimal, conversions]
+      source_printed_pages: [10]
+    - id: "3.2"
+      outcome: Analyses how character data are represented in computers.
+      periods: 4
+      topics: [BCD, EBCDIC, ASCII, Unicode]
+      source_printed_pages: [10]
+    - id: "3.3"
+      outcome: Uses basic arithmetic and logic operations on binary, octal and hexadecimal numbers.
+      periods: 5
+      topics: [addition, subtraction, multiplication, division, bitwise logic]
+      source_printed_pages: [11]
+    - id: "3.4"
+      outcome: Analyses signed-number representation and represents floating-point numbers in normalized form.
+      periods: 5
+      topics: [ones complement, twos complement, normalized floating-point representation]
+      source_printed_pages: [11]

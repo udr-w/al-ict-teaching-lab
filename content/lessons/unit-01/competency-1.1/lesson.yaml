@@ -1,5 +1,34 @@
 lesson:
+  id: unit-01-competency-1.1
+  title: From Data to Useful Information
   unit: 1
   competency: "1.1"
-  status: draft
-  learning_outcomes: []
+  status: publication-candidate
+  allocated_periods: 5
+  prerequisites: []
+  curriculum_source:
+    id: nie-gce-al-ict-syllabus-revised-2013-en
+    printed_page: 6
+  learning_outcomes:
+    - id: LO-1
+      statement: Distinguish data from information using a stated context.
+    - id: LO-2
+      statement: Explain how manipulating data can create information.
+    - id: LO-3
+      statement: Evaluate information for accuracy, completeness, relevance, timeliness, and fitness for purpose.
+    - id: LO-4
+      statement: Explain why the value of information depends on the user, purpose, and context.
+  success_criteria:
+    - Correctly classify at least four of five contextual examples as data or information.
+    - Transform a small dataset into a justified information statement.
+    - Evaluate an information product against at least four quality criteria.
+  sequence:
+    - {period: 1, phase: activate, focus: Data and information in context, outcomes: [LO-1]}
+    - {period: 2, phase: explain, focus: Data manipulation and information creation, outcomes: [LO-2]}
+    - {period: 3, phase: practise, focus: Information characteristics and quality, outcomes: [LO-3]}
+    - {period: 4, phase: practise, focus: Practical information-quality audit, outcomes: [LO-2, LO-3, LO-4]}
+    - {period: 5, phase: assess-and-reflect, focus: Application and retrieval check, outcomes: [LO-1, LO-2, LO-3, LO-4]}
+  assessment:
+    diagnostic: Opening classification task in teacher notes
+    formative: Worksheet sections A-C and practical observation checklist
+    summative: Homework exit task

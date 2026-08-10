@@ -1,0 +1,21 @@
+presentation_toolchain:
+  node:
+    version: 22.23.2
+    release_url: https://nodejs.org/dist/v22.23.2/node-v22.23.2-linux-x64.tar.xz
+    sha256: d60acfe00a2932254bb0ad20e01b0d74397a0875595de719654b214f4b03f307
+    install_path: .tools/node-v22.23.2-linux-x64
+  quarto:
+    version: 1.10.18
+    release_url: https://github.com/quarto-dev/quarto-cli/releases/download/v1.10.18/quarto-1.10.18-linux-amd64.tar.gz
+    sha256: afad071b5bd22c02f2d300695743189d3650e0537a53073e654b630cff2b0c73
+    install_path: .tools/quarto-1.10.18
+  revealjs:
+    provider: bundled-with-quarto
+  decktape:
+    version: 3.16.1
+    browser: system-google-chrome
+    node_runtime: 22.23.2
+  extensions:
+    policy: deny-by-default
+    allowed: []
+  remote_runtime_assets: prohibited

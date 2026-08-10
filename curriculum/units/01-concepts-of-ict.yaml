@@ -2,4 +2,44 @@ unit:
   id: 1
   slug: concepts-of-ict
   title: Concepts of ICT
-  competencies: []
+  competency: Explores the basic concepts of ICT together with its role and applicability in today's knowledge-based society.
+  source:
+    id: nie-gce-al-ict-syllabus-revised-2013-en
+    printed_pages: [6, 7, 8]
+    section: "3.0"
+  competency_levels:
+    - id: "1.1"
+      outcome: Investigates the basic building blocks of information and their characteristics.
+      periods: 5
+      topics: [data, information, characteristics of information, quality and value of information]
+      source_printed_pages: [6]
+    - id: "1.2"
+      outcome: Investigates the need of technology to create, disseminate and manage data and information.
+      periods: 6
+      topics: [manual processing drawbacks, emergence of IT, convergence of information and communication technologies]
+      source_printed_pages: [6]
+    - id: "1.3"
+      outcome: Creates an abstract model of information and evaluates its compliance with ICT.
+      periods: 4
+      topics: [input-process-output model, time value of information, appropriateness of computers]
+      source_printed_pages: [7]
+    - id: "1.4"
+      outcome: Selects and classifies the basic components of a computer system.
+      periods: 5
+      topics: [hardware, software, firmware, proprietary software, open-source software]
+      source_printed_pages: [7]
+    - id: "1.5"
+      outcome: Analyses the activities of the data processing life cycle.
+      periods: 6
+      topics: [data gathering, validation, input modes, processing, storage, output]
+      source_printed_pages: [7]
+    - id: "1.6"
+      outcome: Investigates the use of ICT in different fields of application in organizations.
+      periods: 2
+      topics: [presentations, telecommuting, video conferencing]
+      source_printed_pages: [8]
+    - id: "1.7"
+      outcome: Evaluates the impact of ICT on society.
+      periods: 6
+      topics: [social impact, economic impact, environmental impact, ethical and legal issues]
+      source_printed_pages: [8]

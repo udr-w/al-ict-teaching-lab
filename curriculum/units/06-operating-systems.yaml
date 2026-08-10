@@ -1,0 +1,11 @@
+unit:
+  id: 6
+  slug: operating-systems
+  title: Operating Systems
+  competency: Uses operating systems to manage the overall functionality of computers.
+  source: {id: nie-gce-al-ict-syllabus-revised-2013-en, printed_pages: [14, 15, 16], section: "3.0"}
+  competency_levels:
+    - {id: "6.1", outcome: Defines computer operating systems and investigates their need in computer systems., periods: 4, source_printed_pages: [14]}
+    - {id: "6.2", outcome: Explores how an operating system manages directories and files., periods: 5, source_printed_pages: [15]}
+    - {id: "6.3", outcome: Explores how an operating system manages processes., periods: 5, source_printed_pages: [15]}
+    - {id: "6.4", outcome: Explores how an operating system manages memory and input-output operations., periods: 5, source_printed_pages: [16]}

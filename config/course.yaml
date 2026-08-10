@@ -1,4 +1,12 @@
 course:
   name: GCE Advanced Level Information and Communication Technology
   cohort: 2027-a
+  jurisdiction: Sri Lanka
+  grades: [12, 13]
+  medium: English
+  curriculum_source: nie-gce-al-ict-syllabus-revised-2013-en
+  supporting_sources:
+    - nie-gce-al-ict-teacher-guide-grade-12-2017-si
+  syllabus_revision_year: 2013
+  examination_year: 2027
   status: draft

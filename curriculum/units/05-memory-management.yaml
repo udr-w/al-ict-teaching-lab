@@ -1,0 +1,10 @@
+unit:
+  id: 5
+  slug: memory-management
+  title: Memory Management
+  competency: Uses memory management to improve computer performance.
+  source: {id: nie-gce-al-ict-syllabus-revised-2013-en, printed_pages: [12, 13], section: "3.0"}
+  competency_levels:
+    - {id: "5.1", outcome: Examines PC memory systems to identify memory types and their characteristics., periods: 6, source_printed_pages: [12]}
+    - {id: "5.2", outcome: Distinguishes between different types of memory., periods: 4, source_printed_pages: [13]}
+    - {id: "5.3", outcome: Organizes memory to improve computer performance., periods: 4, source_printed_pages: [13]}

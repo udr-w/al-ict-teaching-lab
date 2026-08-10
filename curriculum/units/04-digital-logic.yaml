@@ -1,0 +1,10 @@
+unit:
+  id: 4
+  slug: digital-logic
+  title: Digital Logic
+  competency: Uses logic gates to design basic digital circuits and devices.
+  source: {id: nie-gce-al-ict-syllabus-revised-2013-en, printed_pages: [11, 12], section: "3.0"}
+  competency_levels:
+    - {id: "4.1", outcome: Analyses basic digital logic gates in terms of their unique functionalities., periods: 4, source_printed_pages: [11]}
+    - {id: "4.2", outcome: Simplifies logic expressions using Boolean algebra and Karnaugh maps., periods: 5, source_printed_pages: [12]}
+    - {id: "4.3", outcome: Designs simple digital circuits and devices using logic gates., periods: 5, source_printed_pages: [12]}

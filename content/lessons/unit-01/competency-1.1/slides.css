@@ -1,0 +1,34 @@
+:root {
+  --ink: #183354;
+  --muted: #53677d;
+  --teal: #007f86;
+  --teal-soft: #dff3f2;
+  --gold: #e6a51c;
+  --paper: #f7f9fb;
+  --white: #ffffff;
+}
+
+.reveal { color: var(--ink); font-family: "Atkinson Hyperlegible", "Noto Sans", Arial, sans-serif; }
+.reveal .slides { text-align: left; }
+.reveal .slides section { background: linear-gradient(135deg, var(--paper) 0 82%, #e4f3f3 82% 100%); padding: 1.2rem 1.6rem; box-sizing: border-box; }
+.reveal h2 { color: var(--ink); font-size: 1.85em; margin: 0 0 .55em; border-left: .18em solid var(--teal); padding-left: .35em; }
+.reveal h3 { color: var(--teal); font-size: .82em; text-transform: uppercase; letter-spacing: .06em; }
+.reveal p, .reveal li { line-height: 1.28; }
+.hero-visual { display: block; max-height: 430px; width: 100%; object-fit: contain; }
+.wide-visual { display: block; max-height: 390px; width: 100%; object-fit: contain; }
+.visual-frame { max-width: 1050px; margin: .2rem auto; }
+.prompt-card, .takeaway, .scenario-banner, .exit-prompt { background: var(--white); border-left: .35rem solid var(--gold); box-shadow: 0 .2rem .8rem #18335418; border-radius: .3rem; padding: .55rem .8rem; margin: .5rem auto; font-size: .84em; }
+.takeaway { border-left-color: var(--teal); text-align: center; font-weight: 700; }
+.context-card, .scenario-card, .step-card, .definition-card, .clue-card { background: var(--white); border: 2px solid #c9d9e4; border-radius: .45rem; padding: .45rem .6rem; margin: .35rem; box-shadow: 0 .15rem .4rem #18335412; }
+.context-card { font-size: .72em; }
+.scenario-card, .step-card { font-size: .67em; }
+.definition-grid, .clue-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: .55rem; max-width: 1100px; margin: .45rem auto 0; }
+.definition-card { text-align: center; font-size: .66em; border-top: .18rem solid var(--teal); }
+.clue-grid { grid-template-columns: repeat(4, 1fr); }
+.clue-card { text-align: center; font-size: .62em; }
+.exit-prompt { font-size: .72em; max-width: 1100px; }
+.visually-hidden { position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+.reveal .footer { color: var(--muted); font-size: .35em; }
+.reveal .slide-number { color: var(--muted); background: transparent; right: 24px !important; bottom: 18px !important; }
+@media (max-width: 900px) { .clue-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (prefers-reduced-motion: reduce) { .reveal .slides section { transition: none !important; } }

@@ -1,5 +1,25 @@
 unit:
   id: 2
   slug: computer-systems
-  title: Computer Systems
-  competencies: []
+  title: Evolution and Architecture of Computers
+  competency: Explores the evolution of computers to describe and compare the performance of a modern computer.
+  source:
+    id: nie-gce-al-ict-syllabus-revised-2013-en
+    printed_pages: [9, 10]
+    section: "3.0"
+  competency_levels:
+    - id: "2.1"
+      outcome: Elicits significant generational changes in computers, emphasizing processor evolution.
+      periods: 4
+      topics: [early calculating aids, electronic computing, computer generations, computer classifications]
+      source_printed_pages: [9]
+    - id: "2.2"
+      outcome: Explores computer functionality in relation to the evolution of hardware and interfaces.
+      periods: 6
+      topics: [input devices, CPU and motherboard, output devices, storage devices, interfaces]
+      source_printed_pages: [9]
+    - id: "2.3"
+      outcome: Explores the evolution of computer architectures.
+      periods: 5
+      topics: [von Neumann architecture, stored-program concept, fetch-execute cycle, CPU, memory]
+      source_printed_pages: [10]

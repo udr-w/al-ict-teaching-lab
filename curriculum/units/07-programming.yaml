@@ -1,0 +1,20 @@
+unit:
+  id: 7
+  slug: programming
+  title: Programming
+  competency: Uses programming languages to program computers to solve problems.
+  source: {id: nie-gce-al-ict-syllabus-revised-2013-en, printed_pages: [16, 17, 18, 19], section: "3.0"}
+  competency_levels:
+    - {id: "7.1", outcome: Uses a problem-solving process., periods: 4, source_printed_pages: [16]}
+    - {id: "7.2", outcome: Uses top-down and stepwise-refinement methods to solve problems., periods: 5, source_printed_pages: [16]}
+    - {id: "7.3", outcome: Uses an algorithmic approach to solve problems., periods: 6, source_printed_pages: [16]}
+    - {id: "7.4", outcome: Examines program translation and execution and uses translators., periods: 4, source_printed_pages: [17]}
+    - {id: "7.5", outcome: Explores integrated development environments and their basic features., periods: 6, source_printed_pages: [17]}
+    - {id: "7.6", outcome: Uses the lexical elements of a programming language., periods: 6, source_printed_pages: [17]}
+    - {id: "7.7", outcome: Uses control structures in developing programs., periods: 8, source_printed_pages: [18]}
+    - {id: "7.8", outcome: Uses libraries and services in programs., periods: 6, source_printed_pages: [18]}
+    - {id: "7.9", outcome: Uses functions in programs., periods: 8, source_printed_pages: [18]}
+    - {id: "7.10", outcome: Compares and contrasts programming paradigms., periods: 8, source_printed_pages: [19]}
+    - {id: "7.11", outcome: Uses data structures in programs., periods: 8, source_printed_pages: [19]}
+    - {id: "7.12", outcome: Handles files and databases in programs., periods: 8, source_printed_pages: [19]}
+    - {id: "7.13", outcome: Searches and sorts data., periods: 8, source_printed_pages: [19]}

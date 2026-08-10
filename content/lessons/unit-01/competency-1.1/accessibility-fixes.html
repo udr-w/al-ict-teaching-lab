@@ -1,0 +1,40 @@
+<script>
+(() => {
+  const repairAccessibility = () => {
+    const viewport = document.querySelector('meta[name="viewport"]');
+    if (viewport) {
+      viewport.setAttribute('content', 'width=device-width, initial-scale=1');
+    }
+
+    const controls = document.querySelector('.controls');
+    if (controls) {
+      controls.setAttribute('role', 'presentation');
+    }
+
+    const menuLink = document.querySelector('.slide-menu-button > a');
+    if (menuLink) {
+      menuLink.setAttribute('aria-label', 'Open slide menu');
+      menuLink.setAttribute('title', 'Open slide menu');
+    }
+
+    document.querySelectorAll('img').forEach((image) => {
+      if (!image.hasAttribute('alt')) {
+        const original = image.closest('p, figure')?.querySelector('img[alt]');
+        if (original && original !== image) {
+          image.setAttribute('alt', original.getAttribute('alt'));
+        } else {
+          image.setAttribute('alt', '');
+          image.setAttribute('role', 'presentation');
+        }
+      }
+    });
+  };
+
+  document.addEventListener('DOMContentLoaded', repairAccessibility);
+  window.addEventListener('load', repairAccessibility);
+  if (window.Reveal?.on) {
+    window.Reveal.on('ready', repairAccessibility);
+    window.Reveal.on('slidechanged', repairAccessibility);
+  }
+})();
+</script>

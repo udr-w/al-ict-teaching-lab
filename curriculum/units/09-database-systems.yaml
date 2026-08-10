@@ -1,0 +1,16 @@
+unit:
+  id: 9
+  slug: database-systems
+  title: Database Systems
+  competency: Designs and develops database systems to manage data efficiently and effectively.
+  source: {id: nie-gce-al-ict-syllabus-revised-2013-en, printed_pages: [27, 28, 29], section: "3.0"}
+  competency_levels:
+    - {id: "9.1", outcome: Compares database models in terms of their features., periods: 5, source_printed_pages: [27]}
+    - {id: "9.2", outcome: Illustrates the main components of the relational database model., periods: 6, source_printed_pages: [27]}
+    - {id: "9.3", outcome: Analyses the main components of a database system., periods: 6, source_printed_pages: [27]}
+    - {id: "9.4", outcome: Designs the conceptual schema of a database., periods: 6, source_printed_pages: [27]}
+    - {id: "9.5", outcome: Designs the logical schema of a database., periods: 6, source_printed_pages: [28]}
+    - {id: "9.6", outcome: Transforms entity-relationship diagrams into logical schemas., periods: 6, source_printed_pages: [28]}
+    - {id: "9.7", outcome: Normalizes database schemas to improve performance., periods: 8, source_printed_pages: [28]}
+    - {id: "9.8", outcome: Uses SQL to create and manage data in a database., periods: 2, source_printed_pages: [28]}
+    - {id: "9.9", outcome: Uses SQL to manipulate data in a database., periods: 8, source_printed_pages: [29]}
