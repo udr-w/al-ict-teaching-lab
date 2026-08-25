@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security and privacy reports
+    url: https://github.com/udr-w/al-ict-teaching-lab/security/policy
+    about: Please report vulnerabilities, leaked learner data, credentials, or other sensitive issues privately.
