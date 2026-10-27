@@ -10,6 +10,6 @@
     "build:publications": "python3 scripts/build_publications.py"
   },
   "devDependencies": {
-    "decktape": "3.16.1"
+    "decktape": "3.17.0"
   }
 }
